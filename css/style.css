@@ -43,7 +43,7 @@ img {
 @media screen and (min-width: 768px) {
 
     .div_img {
-        width: 49.5%;
+        width: 49.6%;
     }
     
     .inline_block {
@@ -89,8 +89,8 @@ img {
         width: 1370px;
     }
     
-    .div_w_2_img {
-        width: 49.8%;
+    .div_img {
+        width: 24.8%;
         display: inline-block;
     }
     
