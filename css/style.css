@@ -17,7 +17,7 @@ body {
     width: 100%;
 }
 
-.txtcenter {
+.txtcenter, h4 {
     text-align: center;
 }
 
