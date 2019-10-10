@@ -1,0 +1,105 @@
+/************** GENERAL *******************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+/************* BODY **************/
+
+
+body {
+    font-family: "Manuscrite";
+}
+
+.container {
+    width: 100%;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.tablette, .desktop, .desktopG {
+    display: none;
+}
+
+h1, h2 {
+    padding: 2% 0%;
+}
+
+.div_img {
+    width: 100%;
+    padding: 1%;
+}
+
+img {
+    width: 100%;
+}
+
+/**************** Vue a partir de 768 px *************/
+
+@media screen and (min-width: 768px) {
+
+    .div_img {
+        width: 49.5%;
+    }
+    
+    .inline_block {
+        display: inline-block;
+    }
+    
+    .tablette {
+        display: block;
+    }
+    
+    .telephone {
+        display: none;
+    }
+    
+    h1, h2 {
+        padding: 1%;
+    }
+}
+
+/**************** Vue a partir de 970px *************/
+
+@media screen and (min-width: 970px) {
+
+    .container {
+        width: 970px;
+        margin : 0 auto;
+    }
+    
+    .tablette {
+        display: none;
+    }
+    
+    .desktop {
+        display: block;
+    }
+}
+
+/**************** Vue a partir de 1370px *************/
+
+@media screen and (min-width: 1370px) {
+
+    .container {
+        width: 1370px;
+    }
+    
+    .div_w_2_img {
+        width: 49.8%;
+        display: inline-block;
+    }
+    
+    .desktop {
+        display: none;
+    }
+    
+    .desktopG {
+        display: block;
+    }
+
+}
